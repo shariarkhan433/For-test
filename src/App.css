@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: #ffffff;
+  color: #211724;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #272527;
+  color: #ffffff;
+}
+
+/* Additional styles for buttons */
+.toggle-btn {
+  position: absolute; /* Adjust position as needed */
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensure it is above other content */
+}
+
